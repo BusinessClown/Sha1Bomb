@@ -2,10 +2,61 @@
 //
 
 #include <iostream>
+#include <string>
 
-int main()
+using namespace std;
+// make these options what ever you need to im running late ttyl
+string main()
 {
-    std::cout << "Hello World!\n";
+	string end;
+	while (end != "finished") {
+		string menu;
+		cout << "Enter the option you want to do: " << endl;
+		cin >> menu;
+		if (menu == "push_front") {
+
+		}
+		else if (menu == "push_back") {
+
+		}
+		else if (menu == "pop_front") {
+
+		}
+		else if (menu == "pop_back") {
+
+		}
+		else if (menu == "front") {
+
+		}
+		else if (menu == "back") {
+
+		}
+		else if (menu == "empty") {
+
+		}
+		else if (menu == "insert") {
+
+
+		}
+		else if (menu == "remove") {
+
+		}
+		else if (menu == "find") {
+
+		}
+		else if (menu == "end") {
+			
+			end = "finished";
+		}
+		else {
+			// this is if the user didn't enter one of the prompted options
+			cout << "Make sure you enter a valid option" << endl;
+		}
+
+
+
+	}
+	return end;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
