@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Sha1Bomb/Sha1Bomb.vcxproj" />
+  <Project Path="Sha1Bomb/Sha1Bomb.vcxproj" Id="441be639-ca40-40ee-8ae0-38ab73b179a5" />
 </Solution>
